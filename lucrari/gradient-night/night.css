@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #1F0431;
+}
+.night .rays {
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    width: 33%;
+    height: 60%;
+    border-radius: 100%;
+    background-image: radial-gradient( #F9DFE8 0 11%, #F7C3D9 11% 16.5%, #E79FC4 16.5% 22%, #DA78B1 22% 27.5%, #B35D8E 27.5% 33%, #854172 33% 38.5%, #6C366A 38.5% 44%, #61265C 44% 49.5%, #511F50 49.5% 55%, #3A1246 55% 60.5%, #310A3F 60.5% 66%, #2B0A39 66% 71.5%);
+}
+.rays .month {
+    position: absolute;
+    top: 43%;
+    left: 45%;
+    width: 50px;
+    height: 60px;
+    border-radius: 100%;
+    border: 20px solid #FFFBFC;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    transform: rotate(-35deg);
+}
+.night .mount-front {
+    position: absolute;
+    z-index: 3;
+    top: 35%;
+    left: 27%;
+    width: 45%;
+    height: 63%;
+    background-image: linear-gradient(transparent 60%, #1F0431 100%), 
+                      conic-gradient( transparent 130deg, #783D69 130deg 230deg, transparent 230deg);
+    mix-blend-mode: lighten;
+}
+.night .mount-behind-1 {
+    position: absolute;
+    z-index: 2;
+    top: 43%;
+    left: -12%;
+    width: 95%;
+    height: 45%;
+    background-image: linear-gradient(transparent 60%, #1F0431 100%), 
+                      conic-gradient(transparent 130deg, #783D69 130deg 230deg, transparent 230deg);
+    mix-blend-mode: lighten;
+}
+.night .mount-behind-2 {
+    position: absolute;
+    z-index: 1;
+    top: 43%;
+    left: 16%;
+    width: 95%;
+    height: 45%;
+    background-image: linear-gradient(transparent 60%, #1F0431 100%), 
+                    conic-gradient(transparent 130deg, #783D69 130deg 230deg, transparent 230deg);
+    mix-blend-mode: lighten;
+}
+.night .tree-1 {
+    position: absolute;
+    top: -25%;
+    left:-9.5%;
+    width: 50%;
+    height: 90%;
+    background-image: linear-gradient(transparent 80%, #1F0431 100%), 
+                      conic-gradient(transparent 173deg, #783D69 173deg 187deg, transparent 187deg);
+    mix-blend-mode: lighten;
+}
+.night .tree-2 {
+    position: absolute;
+    top: -14%;
+    left: -4%;
+    width: 50%;
+    height: 80%;
+    background-image: linear-gradient(transparent 80%, #1F0431 100%),
+                      conic-gradient(transparent 173deg, #783D69 173deg 187deg,  transparent 187deg);
+    mix-blend-mode: lighten;
+}
+.night .tree-3 {
+    position: absolute;
+    top: -3%;
+    left: 1%;
+    width: 50%;
+    height: 70%;
+    background-image: linear-gradient(transparent 80%, #1F0431 100%),
+                      conic-gradient(transparent 173deg, #783D69 173deg 187deg, transparent 187deg);
+    mix-blend-mode: lighten;
+}
+.night .tree-4 {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    width: 50%;
+    height: 60%;
+    background-image: linear-gradient(transparent 80%, #1F0431 100%), 
+                      conic-gradient(transparent 173deg, #783D69 173deg 187deg, transparent 187deg);
+    mix-blend-mode: lighten;
+}
+.night .tree-5 {
+    position: absolute;
+    z-index: 1;
+    top: 19%;
+    left: 8.5%;
+    width: 50%;
+    height: 50%;
+    background-image: linear-gradient(transparent 80%, #1F0431 100%),
+                      conic-gradient(transparent 173deg, #783D69 173deg 187deg, transparent 187deg);
+    mix-blend-mode: lighten;
+}
+
+.night .tree-10 {
+    position: absolute;
+    top: -25%;
+    left: 58.5%;
+    width: 50%;
+    height: 90%;
+    background-image: linear-gradient(transparent 80%, #1F0431 100%),
+                      conic-gradient(transparent 173deg, #783D69 173deg 187deg, transparent 187deg);
+    mix-blend-mode: lighten;
+}
+
+.night .tree-9 {
+    position: absolute;
+    top: -14%;
+    left: 53%;
+    width: 50%;
+    height: 80%;
+    background-image: linear-gradient(transparent 80%, #1F0431 100%),
+                      conic-gradient(transparent 173deg, #783D69 173deg 187deg, transparent 187deg);
+    mix-blend-mode: lighten;
+}
+
+.night .tree-8 {
+    position: absolute;
+    top: -3%;
+    left: 48%;
+    width: 50%;
+    height: 70%;
+    background-image: linear-gradient(transparent 80%, #1F0431 100%),
+                      conic-gradient(transparent 173deg, #783D69 173deg 187deg, transparent 187deg);
+    mix-blend-mode: lighten;
+}
+
+.night .tree-7 {
+    position: absolute;
+    top: 8%;
+    left: 44%;
+    width: 50%;
+    height: 60%;
+    background-image: linear-gradient(transparent 80%, #1F0431 100%),
+                      conic-gradient(transparent 173deg, #783D69 173deg 187deg, transparent 187deg);
+    mix-blend-mode: lighten;
+}
+
+.night .tree-6 {
+    position: absolute;
+    z-index: 1;
+    top: 19%;
+    left: 40.5%;
+    width: 50%;
+    height: 50%;
+    background-image: linear-gradient(transparent 80%, #1F0431 100%),
+                      conic-gradient(transparent 173deg, #783D69 173deg 187deg, transparent 187deg);
+    mix-blend-mode: lighten;
+}

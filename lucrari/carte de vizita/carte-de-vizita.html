@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Business Card Example</title>
+    <style>
+        body {
+            background-color: #EEE;
+        }
+
+        h1,h2,p,ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        #business-card {
+            background-color: #111;
+            width: 400px;
+            height: 200px;
+            padding: 20px;
+            box-shadow: 0 0 5px 2px black;
+        }
+
+        #business-card .name {
+            width: 175px;
+            height: 110px;
+            text-align: right;
+            float: left;
+            margin-top: 50px;
+            margin-left: -10px;
+        }
+
+        #business-card .info {
+            border-left: 2px solid white;
+            width: 175px;
+            height: 115px;
+            padding: 0 10px 0 10px;
+            float: right;
+            margin: 50px 30px 0 0 ;
+        }
+
+        #business-card .name h1 {
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+
+        #business-card .name h2 {
+            color:rgb(175, 148, 80);
+            font-family:arial;
+            text-transform: uppercase;
+        }
+
+        #business-card .name small {
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #business-card .info li {
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            padding: 5px 5px 5px 0;
+            width: 250px;
+        }
+
+        #business-card .info li:nth-child(1)::before {
+            content:url(phone-outline.svg);
+            float: left;
+            width: 8%;
+            background-color: rgb(175, 148, 80);
+            margin-right: 10px;
+            height: 20px;
+        }
+        #business-card .info li:nth-child(2)::before {
+            content: url(at.svg);
+            float: left;
+            width: 8%;
+            background-color: rgb(175, 148, 80);
+            margin-right: 10px;
+            height: 20px;
+        }
+        #business-card>.info>ul>li:nth-child(3)::before {
+            content: url(map-marker-circle.svg);
+            float: left;
+            width: 8%;
+            background-color: rgb(175, 148, 80);
+            margin-right: 10px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="business-card">
+
+        <div class="name">
+            <h1>Firstname</h1>
+            <h2>Lastname</h2>
+            <small>web designer &#47; developer</small>
+        </div>
+        <div class="info">
+            <p>12345 Some Street, City<br>State, Province, Country</p>
+            <ul>
+                <li>+00 22 333444</li>
+                <li>email@somemail.example</li>
+                <li>www.exampledomain.example</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,165 @@
+body {
+  background: radial-gradient(#e88088, #591016);
+  background-size: 100vw 100vh;
+}
+
+.fan {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  rotate: 282deg;
+}
+.fan li {
+  position: absolute;
+  bottom: -15em;
+  height: 45em;
+  width: 7em;
+  transform-origin: center 90%;
+  border-radius: 3em 3em 70% 70%;
+  transition: 3s;
+}
+.fan li::before {
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  background-color: #030001;
+  border-radius: 100%;
+  box-shadow: 0.5em -0.5em 1em 0 #2e080b;
+  bottom: 5%;
+  left: 40%;
+}
+.fan li:nth-child(1) {
+  filter: opacity(95%) saturate(10%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(2) {
+  filter: opacity(190%) saturate(20%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(3) {
+  filter: opacity(285%) saturate(30%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(4) {
+  filter: opacity(380%) saturate(40%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(5) {
+  filter: opacity(475%) saturate(50%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(6) {
+  filter: opacity(570%) saturate(60%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(7) {
+  filter: opacity(665%) saturate(70%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(8) {
+  filter: opacity(760%) saturate(80%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(9) {
+  filter: opacity(855%) saturate(90%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(10) {
+  filter: opacity(950%) saturate(100%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(11) {
+  filter: opacity(1045%) saturate(110%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(12) {
+  filter: opacity(1140%) saturate(120%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(13) {
+  filter: opacity(1235%) saturate(130%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(14) {
+  filter: opacity(1330%) saturate(140%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(15) {
+  filter: opacity(1425%) saturate(150%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan li:nth-child(16) {
+  filter: opacity(1520%) saturate(160%);
+  transform: rotate(0);
+  box-shadow: 0.5em -0.5em 1em 0 #030001;
+}
+.fan:hover li:nth-child(1) {
+  transform: rotate(168deg);
+}
+.fan:hover li:nth-child(2) {
+  transform: rotate(156deg);
+}
+.fan:hover li:nth-child(3) {
+  transform: rotate(144deg);
+}
+.fan:hover li:nth-child(4) {
+  transform: rotate(132deg);
+}
+.fan:hover li:nth-child(5) {
+  transform: rotate(120deg);
+}
+.fan:hover li:nth-child(6) {
+  transform: rotate(108deg);
+}
+.fan:hover li:nth-child(7) {
+  transform: rotate(96deg);
+}
+.fan:hover li:nth-child(8) {
+  transform: rotate(84deg);
+}
+.fan:hover li:nth-child(9) {
+  transform: rotate(72deg);
+}
+.fan:hover li:nth-child(10) {
+  transform: rotate(60deg);
+}
+.fan:hover li:nth-child(11) {
+  transform: rotate(48deg);
+}
+.fan:hover li:nth-child(12) {
+  transform: rotate(36deg);
+}
+.fan:hover li:nth-child(13) {
+  transform: rotate(24deg);
+}
+.fan:hover li:nth-child(14) {
+  transform: rotate(12deg);
+}
+.fan:hover li:nth-child(15) {
+  transform: rotate(0deg);
+}
+.fan:hover li:nth-child(16) {
+  transform: rotate(-12deg);
+}
+.fan img {
+  height: 45em;
+  width: 7em;
+  border-radius: 3em 3em 70% 70%;
+}/*# sourceMappingURL=fan.css.map */

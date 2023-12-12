@@ -1,0 +1,200 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: radial-gradient(#8E5C3B, #593829);
+}
+.carousel {
+    position: relative;
+    width: 417px;
+    height: 626px;
+    top: 180px;
+    left: 400px;
+    perspective: 1000px;
+}
+.carousel .slide {
+    position: absolute;
+    width: 417px;
+    height: 626px;
+    border-right: 10px solid #4c210d;
+    border-bottom: 5px solid #4c210d;
+    transition: transform 10s;
+}
+.carousel .slide:nth-child(1) {
+    transform: rotateY(-40deg) translateZ(-500px) translateY(-300px);
+}
+.carousel .slide:nth-child(2) {
+    transform: rotateY(-40deg) translateZ(-400px) translateY(-235px);
+}
+.carousel .slide:nth-child(3) {
+    transform: rotateY(-40deg) translateZ(-300px) translateY(-170px);
+}
+.carousel .slide:nth-child(4) {
+    transform: rotateY(-40deg) translateZ(-200px) translateY(-110px);
+}
+.carousel .slide:nth-child(5) {
+    transform: rotateY(-40deg) translateZ(-100px) translateY(-50px);
+}
+.carousel .slide:nth-child(6) {
+    transform: rotateY(-40deg) translateZ(0px) translateY(5px);
+}
+.carousel .slide::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(130deg, rgba(255, 255, 255, 0.326), rgba(0, 0, 0, 0.748));
+}
+.carousel .slide a {
+    text-decoration: none;
+    background-color: darkgoldenrod;
+    color: brown;
+    font-size: 50px;
+    position: absolute;
+}
+
+#state-6:target .carousel .slide:nth-child(1) {
+    transform: rotateY(-40deg) translateZ(-400px) translateY(-235px);
+    z-index: 1;
+}
+#state-6:target .carousel .slide:nth-child(2) {
+    transform: rotateY(-40deg) translateZ(-300px) translateY(-170px);
+    z-index: 2;
+}
+#state-6:target .carousel .slide:nth-child(3) {
+    transform: rotateY(-40deg) translateZ(-200px) translateY(-110px);
+    z-index: 3;
+}
+#state-6:target .carousel .slide:nth-child(4) {
+    transform: rotateY(-40deg) translateZ(-100px) translateY(-50px);
+    z-index: 4;
+}
+#state-6:target .carousel .slide:nth-child(5) {
+    transform: rotateY(-40deg) translateZ(0px) translateY(5px);
+    z-index: 5;
+}
+#state-6:target .carousel .slide:nth-child(6) {
+    transform: rotateY(-40deg) translateZ(-500px) translateY(-300px);
+}
+
+
+
+#state-5:target .carousel .slide:nth-child(1) {
+    transform: rotateY(-40deg) translateZ(-300px) translateY(-170px);
+    z-index: 2;
+}
+#state-5:target .carousel .slide:nth-child(2) {
+    transform: rotateY(-40deg) translateZ(-200px) translateY(-110px);
+    z-index: 3;
+}
+#state-5:target .carousel .slide:nth-child(3) {
+    transform: rotateY(-40deg) translateZ(-100px) translateY(-50px);
+    z-index: 4;
+}
+#state-5:target .carousel .slide:nth-child(4) {
+    transform: rotateY(-40deg) translateZ(0px) translateY(5px);
+    z-index: 5;
+}
+#state-5:target .carousel .slide:nth-child(5) {
+    transform: rotateY(-40deg) translateZ(-500px) translateY(-300px);
+}
+#state-5:target .carousel .slide:nth-child(6) {
+    transform: rotateY(-40deg) translateZ(-400px) translateY(-235px);
+    z-index: 1;
+}
+
+
+#state-4:target .carousel .slide:nth-child(1) {
+    transform: rotateY(-40deg) translateZ(-200px) translateY(-110px);
+    z-index: 3;
+}
+#state-4:target .carousel .slide:nth-child(2) {
+    transform: rotateY(-40deg) translateZ(-100px) translateY(-50px);
+    z-index: 4;
+}
+#state-4:target .carousel .slide:nth-child(3) {
+    transform: rotateY(-40deg) translateZ(0px) translateY(5px);
+    z-index: 5;
+}
+#state-4:target .carousel .slide:nth-child(4) {
+    transform: rotateY(-40deg) translateZ(-500px) translateY(-300px);
+}
+#state-4:target .carousel .slide:nth-child(5) {
+    transform: rotateY(-40deg) translateZ(-400px) translateY(-235px);
+    z-index: 1;
+}
+#state-4:target .carousel .slide:nth-child(6) {
+    transform: rotateY(-40deg) translateZ(-300px) translateY(-170px);
+    z-index: 2;
+}
+
+
+#state-3:target .carousel .slide:nth-child(1) {
+    transform: rotateY(-40deg) translateZ(-100px) translateY(-50px);
+    z-index: 4;
+}
+#state-3:target .carousel .slide:nth-child(2) {
+    transform: rotateY(-40deg) translateZ(0px) translateY(5px);
+    z-index: 5;
+}
+#state-3:target .carousel .slide:nth-child(3) {
+    transform: rotateY(-40deg) translateZ(-500px) translateY(-300px);
+}
+#state-3:target .carousel .slide:nth-child(4) {
+    transform: rotateY(-40deg) translateZ(-400px) translateY(-235px);
+    z-index: 1;
+}
+#state-3:target .carousel .slide:nth-child(5) {
+    transform: rotateY(-40deg) translateZ(-300px) translateY(-170px);
+    z-index: 2;
+}
+#state-3:target .carousel .slide:nth-child(6) {
+    transform: rotateY(-40deg) translateZ(-200px) translateY(-110px);
+    z-index: 3;
+}
+
+
+#state-2:target .carousel .slide:nth-child(1) {
+    transform: rotateY(-40deg) translateZ(0px) translateY(5px);
+    z-index: 5;
+}
+#state-2:target .carousel .slide:nth-child(2) {
+    transform: rotateY(-40deg) translateZ(-500px) translateY(-300px);
+}
+#state-2:target .carousel .slide:nth-child(3) {
+    transform: rotateY(-40deg) translateZ(-400px) translateY(-235px);
+    z-index: 1;
+}
+#state-2:target .carousel .slide:nth-child(4) {
+    transform: rotateY(-40deg) translateZ(-300px) translateY(-170px);
+    z-index: 2;
+}
+#state-2:target .carousel .slide:nth-child(5) {
+    transform: rotateY(-40deg) translateZ(-200px) translateY(-110px);
+    z-index: 3;
+}
+#state-2:target .carousel .slide:nth-child(6) {
+    transform: rotateY(-40deg) translateZ(-100px) translateY(-50px);
+    z-index: 4;
+}
+
+
+#state-1:target .carousel .slide:nth-child(1) {
+    transform: rotateY(-40deg) translateZ(-500px) translateY(-300px);
+}
+#state-1:target .carousel .slide:nth-child(2) {
+    transform: rotateY(-40deg) translateZ(-400px) translateY(-235px);
+}
+#state-1:target .carousel .slide:nth-child(3) {
+    transform: rotateY(-40deg) translateZ(-300px) translateY(-170px);
+}
+#state-1:target .carousel .slide:nth-child(4) {
+    transform: rotateY(-40deg) translateZ(-200px) translateY(-110px);
+}
+#state-1:target .carousel .slide:nth-child(5) {
+    transform: rotateY(-40deg) translateZ(-100px) translateY(-50px);
+}
+#state-1:target .carousel .slide:nth-child(6) {
+    transform: rotateY(-40deg) translateZ(0px) translateY(5px);
+}

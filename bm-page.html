@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bm-page.css">
+    <title>BM-Page</title>
+</head>
+<body>
+    <header class="header-bm" id="home">
+        <section class="header-bm__section">
+            <span class="date">
+                <a class="acasa" href="#home">Acasa</a>
+                <a href="#mine">Despre mine</a>
+                <a href="#portofoliu">Portofoliu</a>
+                <a href="#contact">Contactati-ma</a>
+            </span>
+            <span class="retele">
+                <a href="https://www.facebook.com/marina.sanna.758"><img src="images/facebook.png" alt=""></a>
+                <a href="https://wa.me/+37362188771"><img src="images/whatsapp.png" alt=""></a>
+                <a href="viber://chat?number=+37362188771"><img src="images/viber.png" alt=""></a>
+                <a href="mailto:marinabrovinschii@gmail.com"><img src="images/gmail.png" alt=""></a>
+            </span>
+        </section>
+    </header>
+
+    <main class="main-bm">
+        <div class="main-bm__fon">
+            <div class="main">
+                <label class="menu-button-wrapper" for="">
+                    <input type="checkbox" class="menu-button">
+                    <div class="icon-wrapper">
+                        <label class="hamburger">
+                            <input class="hamburger-input" type="checkbox">
+                            <span class="hamburger-line first"></span>
+                            <span class="hamburger-line second"></span>
+                            <span class="hamburger-line third"></span>
+                        </label>
+                    </div>
+                    <div class="item-list">
+                        <div><a href="#mine">Despre mine</a></div>
+                        <div><a href="#portofoliu">Portofoliu</a></div>
+                        <div><a href="#contact">Contactati-ma</a></div>
+                    </div>
+                </label>
+            </div>
+
+            <section class="bm__fon-prezentare">
+                <h1 class="fon-prezentare__title">Buna, eu sunt <br> FRONTEND DEVELOPER</h1>
+                <p>Dezvolt interfete responsive care se adapteaza la diferite dispozitive.
+                    Implementez elemente interactive, cum ar fi animatii sau transitii, pentru a imbunatati experienta utilizatorului.
+                    Incerc tehnologii si framework-uri noi pentru a aduce inovatie proiectelor. Scriu cod bine structurat si usor de
+                    citit.
+                    <span class="prezentare-info">Gestionez eficient sarcinile si respect termenele limita.
+                    Comunic clar cu membrii echipei si cu clientii (daca este cazul).
+                    Particip la discutii si prezint idei intr-un mod profesional, fiind la curent cu noile tehnologii si tendinte in
+                    dezvoltarea frontend.</span></p>
+            </section>
+            <section class="bm__fon-detalii" id="mine">
+                <div class="fon-detalii__fd">
+                    <h2>Cine este un frontend developer?</h2>
+                    <p>Un frontend developer este un profesionist in domeniul dezvoltarii software care se concentreaza pe partea vizuala si
+                    interactiva a unei aplicatii web sau mobile. Acest tip de dezvoltator lucreaza cu tehnologii precum HTML, CSS și
+                    JavaScript pentru a crea interfete de utilizator atractive, interactive si functionale. <span class="fd-info">Un frontend developer eficient trebuie sa fie atent la detalii si sa
+                    fie deschis la invatare continua, avind in vedere ritmul rapid de schimbare in tehnologie si tendinte de dezvoltare.</span></p>
+                </div>
+                <div class="fon-detalii__me">
+                    <h2>Mini-CV</h2>
+                    <img src="images/developer.png" alt="">
+                    <ul>
+                        <li>finalizare curs de frontend developer la «Vanar» SRL - Computer Training Center</li>
+                        <li>cunoasterea limbajelor: HTML, CSS, JavaScript</li>
+                        <li>utilizarea bibliotecii Bootstrap</li>
+                        <li>utilizarea editorului de cod Visual Studio Code</li>
+                        <li>cunoasterea GitHub si Zoom ca instrument de colaborare</li>
+                        <li>citeva lucrari din micul meu portofoliu le puteti vedea mai jos</li>
+                    </ul>
+                </div>
+            </section>
+            <h1 class="bm__fon-title" id="portofoliu">PORTOFOLIU</h1>
+            <div class="bm__fon-mansory">
+                <a class="carousel" href="lucrari/carousel/carousel-position.html"></a>
+                <a class="card" href="lucrari/carte de vizita/carte-de-vizita.html"></a>
+                <a class="fan" href="lucrari/fan/fan.html"></a>
+                <a class="night" href="lucrari/gradient-night/night.html"></a>
+                <a class="profil" href="lucrari/photo-profil/photo-profil.html"></a>
+                <a class="text" href="lucrari/photo-text.html"></a>
+                <a class="pocket" href="lucrari/pocket photos/pocket-photos.html"></a>
+                <a class="snow" href="lucrari/snow/snow.html"></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-bm" id="contact">
+        <form class="subscribe-form">
+            <h2 class="subscribe-form__title">Contactati-ma</h2>
+            <label class="subscribe-form__name">
+                <input type="text" name="name" placeholder="numele">
+            </label>
+            <label class="subscribe-form__email">
+                <input type="text" name="email" placeholder="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+            </label>
+            <textarea class="subscribe-form__message" name="comment" cols="30" rows="5" placeholder="mesajul"></textarea>
+        
+            <button class="subscribe-form__button" type="submit">TRIMITE</button>
+        </form>
+        <a class="button-up" href="#home"></a>
+    </footer>
+</body>
+</html>
